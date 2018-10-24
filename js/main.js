@@ -608,7 +608,7 @@
             var mapOptions = {
                 zoom: 15,
                 scrollwheel: false,
-                center: new google.maps.LatLng(-37.81618, 144.95692),
+                center: new google.maps.LatLng(50.019449, 21.9654965),
                 styles: [{
                     stylers: [{
                         saturation: -100
