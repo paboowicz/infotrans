@@ -3299,6 +3299,9 @@ blockquote:before {
   font-size: 16px;
   padding: 110px 0;
 }
+.footer-bottom-area .container {
+  text-align: center;
+}
 .footer-bottom-area .footer-box .title-bar-footer {
   color: #ffffff;
 }

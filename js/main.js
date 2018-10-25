@@ -331,7 +331,7 @@
             var $this = $(this),
                 $target = contactForm.find('.form-response');
             if (e.isDefaultPrevented()) {
-                $target.html("<div class='alert alert-success'><p>Please select all required field.</p></div>");
+                $target.html("<div class='alert alert-success'><p>Proszę wypełnić wszystkie wymagane pola.</p></div>");
             } else {
 
                 $.ajax({
@@ -344,7 +344,7 @@
                     success: function(text) {
                         if (text == "success") {
                             $this[0].reset();
-                            $target.html("<div class='alert alert-success'><p>Message has been sent successfully.</p></div>");
+                            $target.html("<div class='alert alert-success'><p>Wiadomośc zostałz wysłana.</p></div>");
                         } else {
                             $target.html("<div class='alert alert-success'><p>" + text + "</p></div>");
                         }
@@ -364,7 +364,7 @@
             var $this = $(this),
                 $target = requestForm.find('.form-response');
             if (e.isDefaultPrevented()) {
-                $target.html("<div class='alert alert-success'><p>Please select all required field.</p></div>");
+                $target.html("<div class='alert alert-success'><p>Proszę wypełnić wszystkie wymagane pola.</p></div>");
             } else {
 
                 $.ajax({
@@ -377,7 +377,7 @@
                     success: function(text) {
                         if (text == "success") {
                             $this[0].reset();
-                            $target.html("<div class='alert alert-success'><p>Message has been sent successfully.</p></div>");
+                            $target.html("<div class='alert alert-success'><p>Wiadomośc zostałz wysłana.</p></div>");
                         } else {
                             $target.html("<div class='alert alert-success'><p>" + text + "</p></div>");
                         }
