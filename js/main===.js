@@ -624,6 +624,7 @@
                 map: map
             });
         }
+
         // Add the map initialize function to the window load function
         google.maps.event.addDomListener(window, "load", initialize);
     }

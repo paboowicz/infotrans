@@ -817,6 +817,14 @@ blockquote:before {
 .header-six-style .main-menu-area nav {
   text-align: center;
 }
+.header-one-style {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
 /*=======  End of Header css  ========*/
 /*=====================================
 =          [05] Main menu css         =
