@@ -4193,7 +4193,7 @@ blockquote:before {
 =             [31] About page css             =
 ==============================================*/
 .about-page-one-area {
-  background: url(img/about-bg.jpg);
+  
   background-repeat: no-repeat;
   background-position: 10% center;
   padding: 120px 0 100px;
