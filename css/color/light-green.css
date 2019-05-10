@@ -27,12 +27,19 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: 'Roboto', sans-serif;
   color: #222222;
   margin-top: 0;
   margin-bottom: 20px;
+  line-height: 1.4;
+}
+h5 
+{
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 0px;
   line-height: 1.4;
 }
 h1 {
