@@ -6869,6 +6869,35 @@ blockquote:before {
 /*=======================================
 =           [43] Responsive css         =
 ========================================*/
+@media (max-width: 4399px){
+.slider-area .nivoSlider .slider-content h1,
+  .slider-area .nivoSlider .slider-content .large-title {
+    font-size: 71px;
+    line-height: 1.2;
+    text-align: center;
+	margin-top: 650px;
+  }	
+}
+@media (max-width: 2399px){
+.slider-area .nivoSlider .slider-content h1,
+  .slider-area .nivoSlider .slider-content .large-title {
+    font-size: 65px;
+    line-height: 1.2;
+    text-align: center;
+	margin-top: 420px;
+  }	
+}
+
+@media (max-width: 1399px){
+.slider-area .nivoSlider .slider-content h1,
+  .slider-area .nivoSlider .slider-content .large-title {
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+	margin-top: 350px;
+  }	
+}
+
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
   .nav-top-right > li {
