@@ -1127,7 +1127,7 @@ blockquote:before {
   z-index: 99;
 }
 .slider-area .nivoSlider .slider-content .large-title {
-  color: #222222;
+  color: #fff;
   font-size: 48px;
   font-weight: 500;
   text-align: left;
@@ -6899,6 +6899,7 @@ blockquote:before {
     font-size: 44px;
     line-height: 1.2;
     text-align: center;
+	margin-top: 270px;
   }
   .slider-area .nivoSlider .slider-content p {
     margin: 0 auto;
@@ -7057,6 +7058,7 @@ blockquote:before {
     font-size: 40px;
     line-height: 1.1;
     text-align: center;
+	margin-top: 200px;
   }
   .slider-area .nivoSlider .slider-content p {
     margin: 0 auto;
@@ -7248,9 +7250,10 @@ blockquote:before {
   }
   .slider-area .nivoSlider .slider-content h1,
   .slider-area .nivoSlider .slider-content .large-title {
-    font-size: 26px;
+    font-size: 33px;
     line-height: 1.1;
     text-align: center;
+	margin-top: 150px;
   }
   .slider-area .nivoSlider .slider-content p {
     font-size: 14px;
@@ -7544,12 +7547,23 @@ blockquote:before {
     width: 100%;
   }
 }
+@media (max-width: 568px) {
+.slider-area .nivoSlider .slider-content h1,
+  .slider-area .nivoSlider .slider-content .large-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+	margin-top: 130px;
+  }
+}
+
+
 /* Large Mobile :480px. */
 @media (max-width: 480px) {
   .slider-area .nivoSlider .slider-content h1,
   .slider-area .nivoSlider .slider-content .large-title {
     font-size: 20px;
     margin-bottom: 10px;
+	margin-top: 100px;
   }
   .slider-area .nivoSlider .slider-content .slider-btn-area {
     display: none;
@@ -7632,7 +7646,8 @@ blockquote:before {
 @media (max-width: 320px) {
   .slider-area .nivoSlider .slider-content h1,
   .slider-area .nivoSlider .slider-content .large-title {
-    font-size: 24px;
+    font-size: 16px;
+	margin-top: 90px;
   }
   .slider-area .nivoSlider .slider-content .slider-btn-area {
     display: none;
