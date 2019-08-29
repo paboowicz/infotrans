@@ -7679,12 +7679,13 @@ blockquote:before {
     display: block;
   }
 }
-/* small mobile :320px. */
-@media (max-width: 320px) {
+/* small mobile :360px. */
+@media (max-width: 360px) {
   .slider-area .nivoSlider .slider-content h1,
   .slider-area .nivoSlider .slider-content .large-title {
     font-size: 16px;
 	margin-top: 90px;
+	padding-bottom: 20px;
   }
   .slider-area .nivoSlider .slider-content .slider-btn-area {
     display: none;
