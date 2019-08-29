@@ -8,21 +8,21 @@ $name = $email = $message = null;
  
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG .= "Name is required ";
+    $errorMSG .= "to pole jest wymagane";
 } else {
     $name = $_POST["name"];
 }
  
 // EMAIL
 if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
+    $errorMSG .= "Email jest wymagany ";
 } else {
     $email = $_POST["email"];
 }
 
 // PHONE
 if (empty($_POST["subject"])) {
-    $errorMSG .= "Subject is required ";
+    $errorMSG .= "to pole jest wymagane";
     $Subject = '';
 } else {
     $Subject = $_POST["subject"];
@@ -30,7 +30,7 @@ if (empty($_POST["subject"])) {
  
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "to pole jest wymagane";
 } else {
     $message = $_POST["message"];
 }
@@ -51,7 +51,7 @@ if ($success && $errorMSG == ""){
    echo "success";
 }else{
     if($errorMSG == ""){
-        echo "Something went wrong :(";
+        echo "coś poszło nie tak :(";
     } else {
         echo $errorMSG;
     }
