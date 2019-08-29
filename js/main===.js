@@ -344,7 +344,7 @@
                     success: function(text) {
                         if (text == "success") {
                             $this[0].reset();
-                            $target.html("<div class='alert alert-success'><p>Wiadomośc zostałz wysłana.</p></div>");
+                            $target.html("<div class='alert alert-success'><p>Wiadomośc została wysłana.</p></div>");
                         } else {
                             $target.html("<div class='alert alert-success'><p>" + text + "</p></div>");
                         }
@@ -377,7 +377,7 @@
                     success: function(text) {
                         if (text == "success") {
                             $this[0].reset();
-                            $target.html("<div class='alert alert-success'><p>Wiadomośc zostałz wysłana.</p></div>");
+                            $target.html("<div class='alert alert-success'><p>Wiadomośc została wysłana.</p></div>");
                         } else {
                             $target.html("<div class='alert alert-success'><p>" + text + "</p></div>");
                         }

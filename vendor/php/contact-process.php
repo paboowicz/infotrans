@@ -1,7 +1,7 @@
 <?php
 
-$EmailTo = "info@radiustheme.com";
-$Subject = "New Message Received";
+$EmailTo = "paboowicz@gmail.com";
+$Subject = "Nowa wiadomosc z infotrans24.pl";
 
 $errorMSG = $Body = null;
 $name = $email = $message = null;
