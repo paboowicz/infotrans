@@ -1,6 +1,6 @@
 <?php
 
-$EmailTo = "paboowicz@gmail.com";
+$EmailTo = "biuro@infotrans24.pl";
 $Subject = "Nowa wiadomosc z infotrans24.pl";
 
 $errorMSG = $Body = null;
